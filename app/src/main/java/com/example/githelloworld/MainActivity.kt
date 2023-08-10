@@ -9,10 +9,9 @@ class MainActivity: Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_layout)
-        val incButton: Button = findViewById(R.id.myButton)
+        val myButton: Button = findViewById(R.id.myButton)
 
-
-        incButton.setOnClickListener {
+        myButton.setOnClickListener {
             Toast.makeText(this,"hello world",Toast.LENGTH_SHORT).show()
         }
 
