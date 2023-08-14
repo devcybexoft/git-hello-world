@@ -12,7 +12,7 @@ class MainActivity: Activity() {
         val myButton: Button = findViewById(R.id.myButton)
 
         myButton.setOnClickListener {
-            Toast.makeText(this,"hello world",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"hello world",Toast.LENGTH_LONG).show()
         }
 
     }
